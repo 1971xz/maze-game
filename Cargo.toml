@@ -1,0 +1,11 @@
+[package]
+name = "maze"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+# 我们使用经过验证的稳定版组合
+bevy = "0.12.1"
+bevy_ecs_tilemap = "0.12.0"
+pathfinding = "4.0"
+rand = "0.8.5"
